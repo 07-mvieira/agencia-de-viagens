@@ -29,6 +29,13 @@ header h1{
     font-size: 30pt;
 }
 
+header h4{
+    float: right;
+    justify-content: right;
+    color: white;
+    font-size: 24pt;
+}
+
 main{
     background-color: #e5e6e6;
     display: flex;
@@ -47,13 +54,34 @@ main p{
     padding-right: 3%;
 }
 
+#diva{
+    width: 350;
+    height: 700px;
+    background-color: #f2f2f2;
+}
+
+#divb{
+    width: 350;
+    height: 700px;
+    background-color: #f2f2f2;
+}
+
+#divc{
+    width: 350;
+    height: 700px;
+    background-color: #f2f2f2;
+}
+
 .img-container{
     position: relative;
 }
 
 .img-container img{
-    width: 100%;
+    width: 348px;
     height: auto;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-container h3{
@@ -66,24 +94,6 @@ main p{
     width: 100%;
     font-size: 20pt;
     font-weight: bolder;
-}
-
-#diva{
-    width: 32%;
-    height: 700px;
-    background-color: #f2f2f2;
-}
-
-#divb{
-    width: 32%;
-    height: 700px;
-    background-color: #f2f2f2;
-}
-
-#divc{
-    width: 32%;
-    height: 700px;
-    background-color: #f2f2f2;
 }
 
 footer{
