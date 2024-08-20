@@ -1,1 +1,1 @@
-grupo: caio, vitória, matheus dos santos
+grupo: caio, matheus dos santos, vitória
